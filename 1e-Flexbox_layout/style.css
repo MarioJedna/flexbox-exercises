@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    display: flex;
+    margin: 30px;
+}
+.sidebar {
+    background-color: grey;
+    width: 20%;
+    height: 600px;
+}
+.sidebar * {
+    margin-left: 10%;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 30px;
+}
+.square {
+    width: 30%;
+    height: 35%;
+    background-color: aquamarine;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 30%;
+}

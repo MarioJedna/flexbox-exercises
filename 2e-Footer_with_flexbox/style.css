@@ -1,0 +1,39 @@
+footer {
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+}
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: #b8b8b8;
+}
+
+.footer__line.white{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: left;
+    line-height: 0.1;
+    margin-top: 20px;
+}
+
+.grey{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.start{
+    align-self: flex-start;
+    color: aqua;
+}
